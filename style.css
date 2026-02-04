@@ -1,7 +1,7 @@
 /**
  * MENU DE RESTAURANT
- * Nom de l'étudiant : [Votre nom]
- * Date : [Date]
+ * Nom de l'étudiant : [phu thanh]
+ * Date : [3 fevrier 2026]
 
    Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
  */
@@ -17,13 +17,75 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif; /* Changez pour votre choix de police de caractères de Google Fonts*/
+    font-family: 'SN Pro', sans-serif; /* Changez pour votre choix de police de caractères de Google Fonts*/
     font-size: 1rem;
     line-height: 1.6;
     color: #333; /* Ajutez avec votre couleur de texte principale */
-    background-color: #f9f9f9; /* Ajutez avec votre couleur de fond principale */
+    background-color: #2b262d; /* Ajutez avec votre couleur de fond principale */
 }
 
 /* ========================================
    VOTRE CODE CSS ICI
    ======================================== */
+
+li {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f8d406;
+}
+
+p {
+    font-size: 1rem;
+    color: white;
+}
+
+header {
+    border-style: double ;
+    border-width: 10px;
+    width: 400px;
+    margin: auto;
+}
+
+h1 {
+    color: #f8d406;
+    text-align: center;
+}
+
+.item {
+    color: #f8d406;
+    text-align: center;
+}
+
+.prix {
+    color : #f8d406;
+    display: inline;
+    font-size : 1rem;
+    text-align: right;
+    float: right;
+}
+
+.title {
+    color : #f8d406;
+    display: inline-block;
+}
+
+.badge {
+    color: white;
+    font-size: 1rem;
+    float: right;
+
+}
+
+.main {
+    border-style: double ;
+    border-width: 10px;
+    height: 800px;
+    width: 400px;
+    margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
